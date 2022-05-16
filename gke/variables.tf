@@ -15,5 +15,5 @@ variable "region" {
 
 variable "credentials_path" {
   type    = string
-  default = "pgtm-gwestenberg-db6c9cf95da2.json"
+  default = "creds.json"
 }
