@@ -11,7 +11,7 @@ resource "google_container_cluster" "gke-cluster" {
   }
 
   remove_default_node_pool = true
-  initial_node_count = 3
+  initial_node_count = var.nodes
 }
 
 resource "google_container_node_pool" "gke-cluster-pool" {

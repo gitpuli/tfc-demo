@@ -32,3 +32,6 @@ variable "ip_secondary_pods_range" {
 variable "ip_secondary_services_range" {
   type = string
 }
+variable "nodes" {
+  type    = string
+}
