@@ -1,6 +1,6 @@
 variable "project_id" {
   type = string
-  default = "pgtm-gwestenberg"
+  default = "sylvan-mode-180804"
 }
 
 variable "zone" {

@@ -1,5 +1,5 @@
 gke/.terraform
-gke/pgtm-gwestenberg-db6c9cf95da2.json
+gke/creds.json
 gke/terraform.tfstate
 gke/terraform.tfstate.backup
 eks/.terraform.lock.hcl
