@@ -4,3 +4,4 @@ gke/terraform.tfstate
 gke/terraform.tfstate.backup
 eks/.terraform.lock.hcl
 gke/.terraform.lock.hcl
+.DS_Store

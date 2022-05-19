@@ -20,20 +20,16 @@ variable "credentials_path" {
 
 variable "gke_cluster_name" {
   type    = string
-  default = "gke-cluster"
 }
 
 variable "vpc_gke_name" {
   type    = string
-  default = "vpc-gke"
 }
 
 variable "vpc_gke_subnet_name" {
   type    = string
-  default = "subnet-gke-00"
 }
 
 variable "nodes" {
   type    = string
-  default = 3
 }
