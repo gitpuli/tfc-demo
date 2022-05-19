@@ -6,4 +6,4 @@
   gke_cluster_name = "prod-gke-cluster"
   vpc_gke_name = "prod-vpc-gke"
   vpc_gke_subnet_name = "prod-subnet-gke-00"
-  nodes = 2
+  nodes = 3
