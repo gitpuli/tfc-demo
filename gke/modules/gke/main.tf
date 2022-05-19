@@ -19,7 +19,7 @@ resource "google_container_node_pool" "gke-cluster-pool" {
   project = var.project_id
   cluster = google_container_cluster.gke-cluster.name
   location = var.zone
-  node_count = 3
+  node_count = var.nodes
 
   node_config {
     preemptible = true
